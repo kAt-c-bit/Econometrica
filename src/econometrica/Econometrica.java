@@ -15,7 +15,8 @@ public class Econometrica {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-    
+        
+    int i=0;
 // TODO code application logic here
     }
     
