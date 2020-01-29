@@ -17,6 +17,7 @@ public class Econometrica {
     public static void main(String[] args) {
         
     int i=0;
+    int j=0;
 // TODO code application logic here
     }
     
