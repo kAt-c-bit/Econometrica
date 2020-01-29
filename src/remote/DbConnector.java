@@ -7,10 +7,10 @@ import javax.persistence.Persistence;
 import javax.swing.JOptionPane;
 
 /**
- *   @ Νικήτογλου Ελευθέριος - std100152@ac.eap.gr
- *   @ Ρούσσου Άννα - std114276@ac.eap.gr   
- *   @ Σιδηρόπουλος Κωνσταντίνος - std114284@ac.eap.gr
- *   @ Τμήμα ΘΕΣ-2 2017-18
+ *   @ Κολοβέντη Αικατερίνη - stdΧΧΧΧΧΧ@ac.eap.gr
+ *   @ Τσαπαρίκος Βασίλειος - std114307@ac.eap.gr   
+ *   @ Φασούλας Αριστείδης - stdΧΧΧΧΧΧ@ac.eap.gr
+ *   @ Τμήμα ΗΛΕ-43 2019-20
  */
 
 public final class DbConnector
