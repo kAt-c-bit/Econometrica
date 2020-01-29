@@ -15,7 +15,7 @@ import javax.swing.JOptionPane;
 
 public final class DbConnector
 {
-    private static final String PERSISTENCE_UNIT_NAME = "eWeatherPU";
+    private static final String PERSISTENCE_UNIT_NAME = "Εψον";
     private static EntityManagerFactory emf;
     private static EntityManager em;
     
