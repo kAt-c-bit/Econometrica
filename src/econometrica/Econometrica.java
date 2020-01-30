@@ -5,6 +5,8 @@
  */
 package econometrica;
 
+import controller.*;
+
 /**
  *   @ Κολοβέντη Αικατερίνη - stdΧΧΧΧΧΧ@ac.eap.gr
  *   @ Τσαπαρίκος Βασίλειος - std114307@ac.eap.gr   
@@ -19,8 +21,8 @@ public class Econometrica {
      */
     public static void main(String[] args) {
         
-    int i=0;
-    int j=0;
+    ControllerCountry cc = new ControllerCountry();
+    cc.initializeData();
 // TODO code application logic here
     }
     
