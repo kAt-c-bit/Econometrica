@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package econometrica;
+package model;
 
 import java.io.Serializable;
 import javax.persistence.Basic;
@@ -140,7 +140,7 @@ public class CountryDataset implements Serializable {
 
     @Override
     public String toString() {
-        return "econometrica.CountryDataset[ datasetId=" + datasetId + " ]";
+        return "model.CountryDataset[ datasetId=" + datasetId + " ]";
     }
     
 }

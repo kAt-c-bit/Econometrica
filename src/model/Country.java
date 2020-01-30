@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package econometrica;
+package model;
 
 import java.io.Serializable;
 import java.util.List;
@@ -101,7 +101,7 @@ public class Country implements Serializable {
 
     @Override
     public String toString() {
-        return "econometrica.Country[ isoCode=" + isoCode + " ]";
+        return "model.Country[ isoCode=" + isoCode + " ]";
     }
     
 }
