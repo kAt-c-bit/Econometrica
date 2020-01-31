@@ -67,11 +67,11 @@ public class JsonManager
             JsonObject mainJsonObject = jElement.getAsJsonObject(); 
             
             /*Κρατάμε και ένα προσωρινό αντικείμενο για JsonObject για να γίνονται λιγότερες κλήσεις με λιγότερο κώδικα*/
-            JsonObject js,jsonObject;
+            JsonObject jsonObject;
             
             ct.setIsoCode("300");
             ct.setName("Greece");
-            ctController.addCountry(ct);
+            //ctController.addCountry(ct);
             
              mainJsonObject = mainJsonObject.get("dataset").getAsJsonObject();
              //Parse the name of the dataset
@@ -86,9 +86,13 @@ public class JsonManager
              cd.setDescription(mainJsonObject.get("description").getAsString());
              
              
-             ctCountryDataset.addCountryDataset(cd);
-             String id = mainJsonObject.get("end_date").getAsString();
+             for (JsonElement e : mainJsonObject.get("data").getAsJsonArray()){
+                 System.out.println(e.getAsJsonArray().get(0).getAsString().substring(0, 4));
+                 System.out.println(e.getAsJsonArray().get(1).getAsDouble());
+             }
              
+             ctCountryDataset.addCountryDataset(cd);
+                          
              System.out.println(cd.getName());
              System.out.println(cd.getCountryCode().getIsoCode());
              System.out.println(cd.getDatasetId());
