@@ -5,11 +5,11 @@ import javax.persistence.EntityManager;
 import javax.persistence.Query;
 import remote.DbConnector;
 
-/**
- *   @ Κολοβέντη Αικατερίνη - stdΧΧΧΧΧΧ@ac.eap.gr
- *   @ Τσαπαρίκος Βασίλειος - std114307@ac.eap.gr   
- *   @ Φασούλας Αριστείδης - stdΧΧΧΧΧΧ@ac.eap.gr
- *   @ Τμήμα ΗΛΕ-43 2019-20
+/** 
+ * Τμήμα ΗΛΕ 43
+ * @author ΒΑΣΙΛΗΣ ΤΣΑΠΑΡΙΚΟΣ - 114307
+ * @author ΑΙΚΑΤΕΡΙΝΗ ΚΟΛΟΒΕΝΤΗ - 126971
+ * @author ΑΡΙΣΤΕΙΔΗΣ ΦΑΣΟΥΛΑΣ - 100318
  */
 
 public abstract class Controller

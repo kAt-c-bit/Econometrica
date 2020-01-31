@@ -6,16 +6,16 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 import javax.swing.JOptionPane;
 
-/**
- *   @ Κολοβέντη Αικατερίνη - stdΧΧΧΧΧΧ@ac.eap.gr
- *   @ Τσαπαρίκος Βασίλειος - std114307@ac.eap.gr   
- *   @ Φασούλας Αριστείδης - stdΧΧΧΧΧΧ@ac.eap.gr
- *   @ Τμήμα ΗΛΕ-43 2019-20
+/** 
+ * Τμήμα ΗΛΕ 43
+ * @author ΒΑΣΙΛΗΣ ΤΣΑΠΑΡΙΚΟΣ - 114307
+ * @author ΑΙΚΑΤΕΡΙΝΗ ΚΟΛΟΒΕΝΤΗ - 126971
+ * @author ΑΡΙΣΤΕΙΔΗΣ ΦΑΣΟΥΛΑΣ - 100318
  */
 
 public final class DbConnector
 {
-    private static final String PERSISTENCE_UNIT_NAME = "Εψον";
+    private static final String PERSISTENCE_UNIT_NAME = "EconometricaPU";
     private static EntityManagerFactory emf;
     private static EntityManager em;
     
