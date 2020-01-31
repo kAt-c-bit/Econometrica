@@ -6,9 +6,12 @@
 package econometrica;
 
 /**
- *
- * @author Bill
+ *   @ Κολοβέντη Αικατερίνη - stdΧΧΧΧΧΧ@ac.eap.gr
+ *   @ Τσαπαρίκος Βασίλειος - std114307@ac.eap.gr   
+ *   @ Φασούλας Αριστείδης - stdΧΧΧΧΧΧ@ac.eap.gr
+ *   @ Τμήμα ΗΛΕ-43 2019-20
  */
+
 public class Econometrica {
 
     /**
@@ -17,6 +20,7 @@ public class Econometrica {
     public static void main(String[] args) {
         
     int i=0;
+    int j=0;
 // TODO code application logic here
     }
     
