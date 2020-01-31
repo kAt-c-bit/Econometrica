@@ -6,6 +6,8 @@
  */
 package controller;
 
+import model.CountryDataset;
+
 /**
  *
  * @author Bill
@@ -16,7 +18,11 @@ public class ControllerCountryDataset extends Controller{
     {
         super();
     }
-    
+    public void addCountryDataset(CountryDataset cd){
+        em.getTransaction().begin();
+        em.persist(cd);
+        em.getTransaction().commit();
+    }
     @Override
     protected void clearTable() {
         clearTbl("City.deleteAll");

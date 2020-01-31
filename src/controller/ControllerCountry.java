@@ -21,6 +21,14 @@ public class ControllerCountry extends Controller{
         super();
     }
     
+    public void addCountry(Country c){
+        em.getTransaction().begin();
+        em.persist(c);
+        em.getTransaction().commit();
+    }
+    
+    
+    
     public void initializeData(){
         List<List<String>> records = new ArrayList<>();
         List<Country> ct = new ArrayList<>();
