@@ -5,11 +5,13 @@
  */
 package econometrica;
 
-/**
- *   @ Κολοβέντη Αικατερίνη - stdΧΧΧΧΧΧ@ac.eap.gr
- *   @ Τσαπαρίκος Βασίλειος - std114307@ac.eap.gr   
- *   @ Φασούλας Αριστείδης - stdΧΧΧΧΧΧ@ac.eap.gr
- *   @ Τμήμα ΗΛΕ-43 2019-20
+import controller.ControllerCountry;
+
+/** 
+ * Τμήμα ΗΛΕ 43
+ * @author ΒΑΣΙΛΗΣ ΤΣΑΠΑΡΙΚΟΣ - 114307
+ * @author ΑΙΚΑΤΕΡΙΝΗ ΚΟΛΟΒΕΝΤΗ - 126971
+ * @author ΑΡΙΣΤΕΙΔΗΣ ΦΑΣΟΥΛΑΣ - 100318
  */
 
 public class Econometrica {
@@ -19,8 +21,10 @@ public class Econometrica {
      */
     public static void main(String[] args) {
         
-    int i=0;
-    int j=0;
+        ControllerCountry cc = new ControllerCountry();
+        cc.initializeData();
+        
+    
 // TODO code application logic here
     }
     
